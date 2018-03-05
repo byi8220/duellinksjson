@@ -14,7 +14,9 @@ Usage: `python packscraper.py [pack file] [outputfolder] [pack name]`
 
 `pack name` : The pack that these cards "belong to" i.e. their source. 
 
-**WARNING**: A CARD THAT COMES FROM ONE PACK THAT SHARES A NAME WITH ANOTHER PACK WILL **OVERWRITE** THE PREVIOUS ENTRY IF IT IS TO BE WRITTEN IN THE SAME DATABASE. packscraper is intended to be used before consulting some form of master list.
+**WARNING**: A CARD THAT COMES FROM ONE PACK THAT SHARES A NAME WITH ANOTHER PACK WILL **OVERWRITE** THE PREVIOUS ENTRY IF IT IS TO BE WRITTEN IN THE SAME DATABASE.
+
+`packscraper` is intended to be used before consulting some form of master list.
 
 ## Issues and Further Work
 
