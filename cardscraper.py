@@ -112,6 +112,7 @@ def exportCard(card, path, filename = None):
     exportstr = json.dumps(card.__dict__)
     if(filename is None):
         filename = str(card.name) + ".json" 
+    # Prune filename
     filename = filename.replace('"','')
     filename = filename.replace("'",'').replace("?","").replace(":","")
     f = open(path+"/"+filename, 'w', encoding="UTF-8")
