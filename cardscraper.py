@@ -119,8 +119,10 @@ def exportCard(card, path, filename = None):
     f.write(exportstr)
     f.close
 
+# Imports a card.json file and returns a card.
 def importCard(filepath):
-    f = open(filepath, 'r', encoding="UTF-8")
+    card = json.load(filepath)
+    return card
 
 def main():
     pass
